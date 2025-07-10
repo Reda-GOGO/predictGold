@@ -34,7 +34,7 @@ X_test, y_test = X[train_size:], y[train_size:]
 
 # 3. Build the LSTM model
 model = Sequential()
-model.add(LSTM(50, activation='relu', input_shape=(window_size, 4)))
+model.add(LSTM(50, activation='sigmoid', input_shape=(window_size, 4)))
 model.add(Dense(4))  # Output layer for Price, Open, High, Low
 model.compile(optimizer='adam', loss='mse')
 
