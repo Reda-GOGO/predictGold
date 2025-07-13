@@ -1,0 +1,21 @@
+{
+  "window_size": 10,
+  "prediction_days": 5,
+  "retrain_interval": 7,
+  "min_retrain_samples": 10,
+  "model_dir": "model_versions",
+  "data_file": "gold_data.csv",
+  "scaler_file": "gold_scaler.save",
+  "model_version": "model_20250711_184235.keras",
+  "features": [
+    "Price",
+    "Open",
+    "High",
+    "Low",
+    "Returns",
+    "Volatility",
+    "MA_5",
+    "MA_10",
+    "Price_Change"
+  ]
+}
