@@ -133,7 +133,7 @@ def build_lstm_model(input_shape, output_size):
         kernel_regularizer=l1_l2(l1=1e-5, l2=1e-4)
     ))
     model.add(Dropout(0.3))
-    model.add(Dense(48, activation='sigmoid',
+    model.add(Dense(49, activation='tanh',
               kernel_regularizer=l1_l2(l1=1e-5, l2=1e-4)))
     model.add(Dense(output_size))
     return model

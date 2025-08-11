@@ -6,7 +6,7 @@
   "model_dir": "model_versions",
   "data_file": "gold_data.csv",
   "scaler_file": "gold_scaler.save",
-  "model_version": "model_20250715_003225.keras",
+  "model_version": "model_20250812_002319.keras",
   "features": [
     "Price",
     "Open",
