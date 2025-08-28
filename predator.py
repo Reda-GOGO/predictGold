@@ -1,3 +1,5 @@
+
+# "08/15/2025","3335.39","3336.50","3349.02","3332.16","","-0.03%"
 import numpy as np
 import pandas as pd
 import tensorflow as tf
